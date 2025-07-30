@@ -389,6 +389,15 @@ class PlejdApi {
           dimmable: true,
           broadcastClicks: false,
         };
+       case 22:
+        return {
+          // New verision of the DIM-01, added by Tom
+          name: 'DIM-01',
+          description: '1-channel dimmer LED, 300 VA ("LC" hardware/chip version)',
+          type: 'light',
+          dimmable: true,
+          broadcastClicks: false,
+        };
       case 167:
         return {
           name: 'DWN-01',
